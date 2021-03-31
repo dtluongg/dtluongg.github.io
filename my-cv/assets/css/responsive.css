@@ -1,0 +1,215 @@
+@media (min-width: 1025px) {
+  .mobile_menu {
+    display: none;
+  }
+  .mobile_menu-icon, .mobile_menu-icon2 {
+    display: none !important;
+  }
+
+  .scrollontop {
+    display: none;
+  }
+}
+/* Tablet and mobile */
+@media (max-width: 1024px) {
+  .scrollontop {
+    display: none;
+  }
+
+  .mobile_menu {
+    display: block;
+  }
+  .mobile_menu-icon2 {
+    display: none;
+  }
+  .mobile_menu-modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .mobile_menu-wrapper {
+    width: 70vw;
+    z-index: 2;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .container {
+    margin-left: 0;
+    overflow-x: hidden;
+  }
+  .container-home {
+    height: 100vh;
+    background: url(../img/images/anh1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  .container-home-modal {
+    height: 100vh;
+  }
+  .container-resume-education-container-wrapper::before {
+    left: -7.8%;
+    top: -2%;
+  }
+  .container-resume-experience-container-wrapper::before {
+    left: -8%;
+    top: -2%;
+  }
+  .container-contact-map-content {
+    margin: 0 3%;
+  }
+
+  .console-container {
+    left: 0;
+    top: -50%;
+  }
+}
+/* Small Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .container-about-img > img {
+    margin-top: 20%;
+  }
+  .container-resume-education-container-wrapper::before {
+    left: -8.8%;
+  }
+  .container-resume-experience-container-wrapper::before {
+    left: -8.8%;
+  }
+
+  .console-container {
+    left: 0;
+    top: -50%;
+  }
+}
+/* Mobile */
+@media (min-width: 411px) and (max-width: 739px) {
+  .mobile_menu-wrapper {
+    width: 100vw;
+    z-index: 2;
+  }
+
+  .console-container {
+    font-size: 2em;
+    width: 90%;
+    height: 0;
+    margin: 0 auto;
+    top: 17%;
+  }
+
+  .container {
+    overflow-x: hidden;
+  }
+  .container-about-img {
+    display: none;
+  }
+  .container-about-paragraph {
+    display: none;
+  }
+  .container-about-wrap-heading {
+    font-size: 1.4rem;
+    margin-left: 4%;
+  }
+  .container-about-wrap-paragraph {
+    margin-left: 4%;
+  }
+  .container-about-wrap-list {
+    margin: 2% 0 0 4%;
+  }
+  .container-about-wrap-list-item {
+    font-size: 1.5rem;
+    margin-bottom: 1.6%;
+  }
+  .container-resume-education-container-wrapper-majors {
+    font-size: 1.5rem;
+  }
+  .container-resume-education-container-wrapper::before {
+    left: -8.234%;
+  }
+  .container-resume-experience-container-wrapper-majors {
+    font-size: 1.5rem;
+  }
+  .container-resume-experience-container-wrapper::before {
+    left: -8.234%;
+  }
+  .container-contact-map-content {
+    margin: 0 2%;
+  }
+  .container-contact-map-content-info {
+    padding-bottom: 4%;
+    font-size: 1.23rem;
+  }
+
+  #mapholder {
+    height: 200px;
+  }
+}
+@media (max-width: 410px) {
+  .mobile_menu-wrapper {
+    width: 100vw;
+    z-index: 2;
+  }
+
+  .console-container {
+    font-size: 2em;
+    width: 90%;
+    height: 0;
+    margin: 0 auto;
+    top: 17%;
+  }
+
+  .container {
+    overflow-x: hidden;
+  }
+  .container-about-img {
+    display: none;
+  }
+  .container-about-paragraph {
+    display: none;
+  }
+  .container-about-wrap-heading {
+    font-size: 1.4rem;
+    margin-left: 4%;
+  }
+  .container-about-wrap-paragraph {
+    margin-left: 4%;
+  }
+  .container-about-wrap-list {
+    margin: 2% 0 0 4%;
+  }
+  .container-about-wrap-list-item {
+    font-size: 1.5rem;
+    margin-bottom: 1.6%;
+  }
+  .container-resume-education-container-wrapper-majors {
+    font-size: 1.5rem;
+  }
+  .container-resume-education-container-wrapper::before {
+    left: -8.6789%;
+  }
+  .container-resume-experience-container-wrapper-majors {
+    font-size: 1.5rem;
+  }
+  .container-resume-experience-container-wrapper::before {
+    left: -8.6789%;
+  }
+  .container-contact-map-content {
+    margin: 0 2%;
+  }
+  .container-contact-map-content-info {
+    padding-bottom: 4%;
+    font-size: 1.23rem;
+  }
+
+  #mapholder {
+    height: 200px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
