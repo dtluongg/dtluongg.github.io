@@ -1,0 +1,170 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .main-sidebar {
+        left: -200%;
+        transition: all .4s ease-in-out;
+        width: 70vw;
+        &__wrapper {
+            font-size: 18px;
+            padding: 14px 20px;
+            margin-bottom: 20px;
+            transition: all 0.3s ease-in-out;
+            width: 100%;
+            border-radius: 180px;
+            background-color: rgba($color: #0563bb, $alpha: 0.05);
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            & > span {
+                visibility: visible;
+                padding-left: 12%;
+                color: black;
+            }
+        }
+    }
+
+    .main-content__resume-wrapper-box {
+        margin-bottom: 4%;
+    }
+
+    #close-sidebar {
+        position: absolute;
+        top: 1%;
+        right: 8%;
+        font-size: 36px;
+    }
+
+    .main-button {
+        display: block;
+    }
+
+    .main-content {
+        margin-left: 16px;
+        width: 100%;
+        &__about,
+        &__skills,
+        &__resume,
+        &__portfolio,
+        &__contact {
+            padding-right: 12px;
+        }
+        &__home {
+            background-size: cover;
+        }
+    }
+
+    .main-content__about-wrapper > div#img > img {
+        margin-bottom: 12px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .main-sidebar {
+        left: -200%;
+        transition: all .4s ease-in-out;
+        width: 30vw;
+        &__wrapper {
+            font-size: 18px;
+            padding: 14px 20px;
+            margin-bottom: 20px;
+            transition: all 0.3s ease-in-out;
+            width: 100%;
+            border-radius: 180px;
+            background-color: rgba($color: #0563bb, $alpha: 0.05);
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            & > span {
+                visibility: visible;
+                padding-left: 12%;
+                color: black;
+            }
+        }
+    }
+
+    .main-content__resume-wrapper-box {
+        margin-bottom: 4%;
+    }
+
+    #close-sidebar {
+        position: absolute;
+        top: 1%;
+        right: 8%;
+        font-size: 36px;
+    }
+
+    .main-button {
+        display: block;
+    }
+
+    .main-content {
+        margin-left: 16px;
+        width: 100%;
+        &__about,
+        &__skills,
+        &__resume,
+        &__portfolio,
+        &__contact {
+            padding-right: 10px;
+        }
+        &__home {
+            background-size: cover;
+        }
+    }
+
+    .main-content__about-wrapper > div#img > img {
+        margin-bottom: 12px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .main-sidebar {
+        left: 0 !important;
+        transition: all .3s ease-in-out;
+        width: 160px !important;
+        &__wrapper {
+            font-size: 18px;
+            padding: 14px 20px;
+            margin-bottom: 20px;
+            transition: all 0.3s ease-in-out;
+            width: 58px;
+            border-radius: 50%;
+            background-color: rgba($color: #000000, $alpha: 0.05);
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            & > span {
+                visibility: hidden;
+                padding-left: 12%;
+                color: white !important;
+            }
+        }
+    }
+
+    .main-button {
+        display: none;
+    }
+
+    .main-content {
+        margin-left: 160px;
+        &__home {
+            background-size: 60%;
+        }
+    }
+
+    #close-sidebar {
+        display: none;
+    }
+}
