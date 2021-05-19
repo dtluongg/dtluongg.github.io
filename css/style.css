@@ -92,7 +92,7 @@ li {
   height: 100vh;
   background: linear-gradient(to right, white, rgba(255, 255, 255, 0.65)), url("../assets/images/123580466_1286234628377211_5527527341989879238_n.jpg");
   background-position: center right;
-  background-size: 60%;
+  background-size: 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
