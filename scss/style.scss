@@ -43,7 +43,7 @@ li {
     }
 
     &-modal {
-        background-color: rgba($color: #000000, $alpha: .3);
+        background-color: rgba($color: #000000, $alpha: 0.3);
         position: fixed;
         top: 0;
         right: 0;
@@ -52,7 +52,6 @@ li {
         z-index: 1;
         display: none;
     }
-
 
     // Sidebar
     &-sidebar {
@@ -103,6 +102,9 @@ li {
             background: linear-gradient(to right, rgba($color: #ffffff, $alpha: 1), rgba($color: #ffffff, $alpha: 0.65)),
                 url("../assets/images/123580466_1286234628377211_5527527341989879238_n.png");
             background-position: center right;
+            -o-background-size: 50%;
+            -moz-background-size: 50%;
+            -webkit-background-size: 50%;
             background-size: 50%;
             background-repeat: no-repeat;
             background-attachment: fixed;
