@@ -356,37 +356,6 @@
             <a href="#home" id="scroll-on-top">
                 <i class="fas fa-chevron-up"></i>
             </a>
-
-            <!-- Messenger Plugin chat Code -->
-            <div id="fb-root"></div>
-
-            <!-- Your Plugin chat code -->
-            <div id="fb-customer-chat" class="fb-customerchat">
-            </div>
-
-            <script>
-                var chatbox = document.getElementById('fb-customer-chat');
-                chatbox.setAttribute("page_id", "686047895376040");
-                chatbox.setAttribute("attribution", "page_inbox");
-
-                window.fbAsyncInit = function () {
-                    FB.init({
-                        xfbml: true,
-                        version: 'v11.0'
-                    });
-                };
-
-                (function (d, s, id) {
-                    var js, fjs = d.getElementsByTagName(s)[0];
-                    if (d.getElementById(id)) return;
-                    js = d.createElement(s); js.id = id;
-                    js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-                    fjs.parentNode.insertBefore(js, fjs);
-                }(document, 'script', 'facebook-jssdk'));
-            </script>
-        </div>
-    </div>
-
     <!-- jQuery and Bootstrap -->
     <script src="./vendor/jquery/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./vendor/bootstrap/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
