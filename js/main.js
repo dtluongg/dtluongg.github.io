@@ -35,16 +35,32 @@ $(function () {
     $(document).on("mouseover", ".body_section", onMouseOver);
     $(window).on("hashchange", onHashChange);
 
-    $(document).find("#skill_slider").slick({
-      dots: false,
-      infinite: true,
-      arrows: false,
-      swipeToSlide: true,
-      speed: 300,
-      slidesToShow: 6,
-      autoplay: true,
-      autoplaySpeed: 3000,
-    });
+    $(document)
+      .find("#skill_slider")
+      .slick({
+        dots: false,
+        infinite: true,
+        arrows: false,
+        swipeToSlide: true,
+        speed: 300,
+        slidesToShow: 6,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 3,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 2,
+            },
+          },
+        ],
+      });
   }
 
   function onDocumentScroll() {
