@@ -27,6 +27,7 @@ $(function () {
     let top = $(document).scrollTop();
     $("header").css("height", top > 120 ? "60px" : "80px");
     $("header").css("background", top > 120 ? rgba : "transparent");
+    $(".back_to_top").css("right", top > 120 ? "24px" : "-240px");
 
     $(document).find(`.custom_navbar a#header_${hash}`).addClass("active");
 
@@ -50,6 +51,7 @@ $(function () {
     let top = $(this).scrollTop();
     $("header").css("height", top > 120 ? "60px" : "80px");
     $("header").css("background", top > 120 ? rgba : "transparent");
+    $(".back_to_top").css("right", top > 120 ? "24px" : "-240px");
   }
 
   function onHashChange() {

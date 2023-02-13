@@ -339,3 +339,19 @@ footer p {
   padding: 16px;
   color: #fefefe;
 }
+
+.back_to_top {
+  position: fixed;
+  bottom: 24px;
+  right: -240px;
+  background-color: #ffb727;
+  color: #fefefe !important;
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: all ease-in-out .2s;
+}
