@@ -118,8 +118,8 @@ header ul.custom_navbar li a.active {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-size: contain;
-  background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+  background-size: cover;
+  background-image: url(../img/causat.jpg);
   background-position: 100% 0;
   background-repeat: no-repeat;
 }
